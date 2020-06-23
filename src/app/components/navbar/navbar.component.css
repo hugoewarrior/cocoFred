@@ -4,9 +4,9 @@
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-.example-sidenav-content {
+.main-content {
   display: flex;
-  height: 100%;
+  padding: 20px;
   align-items: center;
   justify-content: center;
 }
@@ -23,7 +23,7 @@
   color: white;
   flex: 1 1 auto;
   position: sticky;
-  position: -webkit-sticky; /* For macOS/iOS Safari */
-  top: 0; /* Sets the sticky toolbar to be on top */
-  z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+  position: -webkit-sticky; 
+  top: 0; 
+  z-index: 1000;
 }
